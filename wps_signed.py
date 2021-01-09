@@ -6,7 +6,7 @@ import requests
 import urllib3
 
 urllib3.disable_warnings()
-sid ='V02******'#签到用户的sid
+sid ='346399866'#签到用户的sid
 # sid = "V02**********"
 url = "https://zt.wps.cn/2018/clock_in/api/clock_in?member=wps"
 headers={
@@ -31,4 +31,5 @@ print("开始执行，当前时间："+time.strftime("%Y-%m-%d %H:%M:%S ", time.
 #         func()
 #         time.sleep(2)  # 因为以秒定时，所以暂停2秒，使之不会在1秒内执行多次
 func()
+
 
